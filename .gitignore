@@ -86,8 +86,12 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
-#build target
-/target/
+#Javascript files
+**/*.js
+**/*.js.map
+
+#Distribution dir
+/dist/
 
 #npm stuff
 /node_modules/
