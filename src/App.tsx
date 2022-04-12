@@ -9,6 +9,11 @@ interface Props
 
 class App extends React.Component<Props>
 {
+  public componentDidMount()
+  {
+    super.componentDidMount();
+  }
+
   render()
   {
     const {name} = this.props;
