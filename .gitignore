@@ -89,6 +89,7 @@ fabric.properties
 #Javascript files
 **/*.js
 **/*.js.map
+!webpack.config.js
 
 #Distribution dir
 /dist/
